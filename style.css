@@ -1,0 +1,47 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #9b9090;
+    color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    background: #252529;
+    background-image: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select {
+
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #252529;
+    overflow: hidden;
+    border-radius: .25em;
+    
+}
+
+select {
+    flex: 1;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
